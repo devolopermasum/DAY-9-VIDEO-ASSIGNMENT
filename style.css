@@ -1,0 +1,39 @@
+
+.first-h1{
+    color: red;
+}
+#p-tag{
+    color:orange;
+}
+.div-tag{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(23, 220, 23);
+}
+.div-tag:hover{
+    background-color: purple;
+    cursor:pointer;
+    height: 250px;
+    width: 250px;
+    margin: 50px 70px;
+    rotate: 180deg;
+    border-radius: 10px;
+
+    transition: .5s;
+}
+ul li a{
+    text-decoration: none;
+}
+.first-section li:nth-child(1) a{
+    color: red;
+}
+.secend-section li:nth-child(odd) a{
+    color: red;
+}
+.third-section li:nth-child(even) a{
+    color: red;
+}
+
+p{
+    color:chocolate;
+}
